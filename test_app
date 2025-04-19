@@ -1,0 +1,11 @@
+from app import square
+from app import cube
+
+def test_square():
+    assert square(2)==4
+    assert square(5)==25
+
+
+def test_cube():
+    assert cube(2)==8
+    assert cube(5)==125    
